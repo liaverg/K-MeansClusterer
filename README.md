@@ -4,13 +4,14 @@
  
   ## How to Run
   ### Windows Host
-  1. Compile with: javac -cp ".;jars/*" main/*.java
-  2. Create a new dataset with: java -cp ".;jars/*" main/DatasetGenerator - This is not necessary
-  3. Run java application with: java -cp ".;jars/*" main/Kmeans <dataset_name.txt> <number_of_clusters> <number_of_runs>
-						 example: java -cp ".;jars/*" main/Kmeans dataset.txt 9 20
+  1. Compile with: `javac -cp ".;jars/*" main/*.java`
+  2. Create a new dataset with: `java -cp ".;jars/*" main/DatasetGenerator` - This is not necessary
+  3. Run java application with: 
+  `java -cp ".;jars/*" main/Kmeans <dataset_name.txt> <number_of_clusters> <number_of_runs>`
+  example: `java -cp ".;jars/*" main/Kmeans dataset.txt 9 20`
 
   ### Linux Host
-  1. Compile with: javac -cp ".:jars/*" main/*.java
-  2. Create a new dataset with: java -cp ".:jars/*" main/DatasetGenerator - This is not necessary
-  3. Run java application with: java -cp ".:jars/*" main/Kmeans <dataset_name.txt> <number_of_clusters> <number_of_runs>
-                     example: java -cp ".:jars/*" main/Kmeans dataset.txt 9 20
+  1. Compile with: `javac -cp ".:jars/*" main/*.java`
+  2. Create a new dataset with: `java -cp ".:jars/*" main/DatasetGenerator` - This is not necessary
+  3. Run java application with: `java -cp ".:jars/*" main/Kmeans <dataset_name.txt> <number_of_clusters> <number_of_runs>`
+  example: `java -cp ".:jars/*" main/Kmeans dataset.txt 9 20`
